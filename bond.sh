@@ -9,10 +9,8 @@ dhcp=""
 function show_help {
   echo "Usage : $0 -i <bond name> -m <bond mac> [-d] <iface1> <iface2> [<iface3>
  <iface4>]"
-  echo "           -i <bond name>                          name for the interfac
-e"
- # echo "           -m <bond mac>                           mac address to set f
-or interface"
+  echo "           -i <bond name>                          name for the interface"
+ # echo "           -m <bond mac>                           mac address to set for interface"
   echo "           -d                                      do dhcp on interface"
   echo "           <iface1> <iface2> [<iface3> <iface4>]   interfaces to bound"
   exit 0
