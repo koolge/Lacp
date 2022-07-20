@@ -19,7 +19,6 @@ chmod +x bond.sh
 
 Once it is done, you can use the script : 
 ./bond.sh  -i bond0 eth2 eth3
-./bond.sh  -i bond0 eth2 eth3
 
 Argument used on the script : 
 - i : Bond Name 
