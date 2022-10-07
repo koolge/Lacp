@@ -6,6 +6,9 @@ OPTIND=1
 iname=""
 dhcp=""
 
+
+do apt-get install ifenslave 
+
 function show_help {
   echo "Usage : $0 -i <bond name> -m <bond mac> [-d] <iface1> <iface2> [<iface3>
  <iface4>]"
